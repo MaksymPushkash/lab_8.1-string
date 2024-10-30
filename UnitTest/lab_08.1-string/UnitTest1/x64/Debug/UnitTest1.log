@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+     Creating library C:\Users\admin\Desktop\lab_8.1-string\UnitTest\lab_08.1-string\x64\Debug\UnitTest1.lib and object C:\Users\admin\Desktop\lab_8.1-string\UnitTest\lab_08.1-string\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "int __cdecl CountTriple(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CountTriple@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl UnitTest::UnitTest::TestCountTriple(void)" (?TestCountTriple@UnitTest@1@QEAAXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl ReplaceTriple(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?ReplaceTriple@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z) referenced in function "public: void __cdecl UnitTest::UnitTest::TestReplaceTriple(void)" (?TestReplaceTriple@UnitTest@1@QEAAXXZ)
+C:\Users\admin\Desktop\lab_8.1-string\UnitTest\lab_08.1-string\x64\Debug\UnitTest1.dll : fatal error LNK1120: 2 unresolved externals
